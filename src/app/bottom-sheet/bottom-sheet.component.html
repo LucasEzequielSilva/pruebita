@@ -1,0 +1,14 @@
+<div
+  #bottomSheet
+  class="bottom-sheet"
+  (mousedown)="onDragStart($event)"
+  (mousemove)="onDragMove($event)"
+  (mouseup)="onDragEnd($event)"
+>
+  <div class="pointer">
+    <hr>
+  </div>
+  <div class="content">
+    <!-- Contenido del bottom sheet -->
+  </div>
+</div>

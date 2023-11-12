@@ -1,0 +1,28 @@
+.bottom-sheet {
+    position: fixed !important;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffff;
+    border-radius: 1rem;
+    transition: height 0.1s ease-in-out;
+    height: 200px;
+    & .pointer {
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & hr {
+        width: 10rem !important;
+        padding: .13rem;
+        background-color: #999;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .bottom-sheet.closed {
+    height: 200px;
+  }
+  
